@@ -1,8 +1,7 @@
-x = document.getElementById(Num1)
-y = document.getElementById(Num2)
+function addNumber(){
+  var first_number = parseInt(document.getElementById("Text1").value);
+  var second_number = parseInt(document.getElementById("Text2").value);
+  var result = first_number + second_number;
 
-document.getElementById('button1').onclick = function(){
-  sum = x + y
-  
-  document.write( y);
+  document.getElementById("txtresult").value = result;
 }
