@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.centered-div {
+    width: 200px; /* Set a width */
+}
+
+.Title-center{
+    place-items: center;
+}
+
+form{
+    position: fixed;
+
+}
+
+input{
+    border-radius: 4px;
+}
